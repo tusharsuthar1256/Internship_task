@@ -39,7 +39,6 @@ const SuccessStories = () => {
 
   return (
     <div className="relative w-full overflow-hidden px-3 sm:px-5 md:px-20 py-10 md:py-20">
-      {/* Slides */}
       <div
         className="flex transition-transform duration-700 ease-in-out"
         style={{ transform: `translateX(-${current * 100}%)` }}
@@ -49,7 +48,6 @@ const SuccessStories = () => {
             key={idx}
             className="w-full flex-shrink-0 flex flex-col lg:flex-row h-auto lg:h-[500px]"
           >
-            {/* Text Section */}
             <div className="w-full lg:w-2/5 bg-white p-5 sm:p-8 flex flex-col justify-center text-center lg:text-left">
               <svg className="w-8 sm:w-10 h-8 sm:h-10 text-red-600 mb-3 sm:mb-4 mx-auto lg:mx-0" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M7.17 6A4.001 4.001 0 003 10v4a4 4 0 004 4h2a1 1 0 001-1v-4a1 1 0 00-1-1H5v-2a2 2 0 012-2h.17zM17.17 6A4.001 4.001 0 0013 10v4a4 4 0 004 4h2a1 1 0 001-1v-4a1 1 0 00-1-1h-4v-2a2 2 0 012-2h.17z" />
@@ -57,7 +55,6 @@ const SuccessStories = () => {
               <p className="text-gray-800 leading-relaxed text-base sm:text-lg">{slide.quote}</p>
             </div>
 
-            {/* Image Section */}
             <div className="w-full lg:w-3/5 h-[220px] sm:h-[300px] lg:h-[500px] relative">
               <img
                 src={slide.image}
