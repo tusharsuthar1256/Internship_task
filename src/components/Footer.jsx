@@ -10,7 +10,6 @@ export default function Footer() {
             <p className="text-lg leading-6">One Medical Devices<br />Market Place</p>
           </div>
 
-          {/* Platform Links */}
           <div>
             <h3 className="text-white font-semibold mb-3">Platform</h3>
             <ul className="space-y-2">
@@ -24,7 +23,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Press Room & Policies */}
           <div>
             <h3 className="text-white font-semibold mb-3">Press Room</h3>
             <ul className="space-y-2 mb-4">
@@ -38,7 +36,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Reach Us */}
           <div>
             <h3 className="text-white font-semibold mb-3">Reach Us</h3>
             <ul className="space-y-2">
@@ -49,7 +46,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom bar separated with white background */}
       <div className="bg-white border-t border-gray-200 px-6 py-6 flex flex-col md:flex-row  flex justify-center items-center max-w-7xl mx-auto">
         <p className="text-gray-600 text-center md:text-left">© 2025 1MDM <span className="text-yellow-500">⚡</span> by SuperLabs</p>
       </div>
