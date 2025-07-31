@@ -66,7 +66,6 @@ const SuccessStories = () => {
         ))}
       </div>
 
-      {/* Navigation Arrows */}
       <button
         onClick={prevSlide}
         className="absolute left-3 sm:left-5 top-1/2 transform -translate-y-1/2 bg-white/80 p-2 sm:p-3 rounded-full shadow hover:bg-gray-100 z-20"
@@ -84,7 +83,6 @@ const SuccessStories = () => {
         </svg>
       </button>
 
-      {/* Pagination Dots */}
       <div className="flex justify-center mt-5 gap-2">
         {slides.map((_, idx) => (
           <div
