@@ -36,12 +36,10 @@ const FeatureShowcase = () => {
 
   return (
     <>
-      {/* Title */}
       <h1 className="w-full text-2xl sm:text-3xl md:text-4xl text-center py-10 md:py-20 text-red-900 font-bold">
         Grow your business with a suite of tools built for you
       </h1>
 
-      {/* ✅ Mobile Horizontal Tabs */}
 <div className="flex md:hidden overflow-x-auto no-scrollbar space-x-4 px-4 mb-6">
   {features.map((feature) => (
     <button
@@ -59,9 +57,7 @@ const FeatureShowcase = () => {
 </div>
 
 
-      {/* Wrapper */}
       <div className="w-full flex flex-col md:flex-row md:px-20 px-4 py-10 md:py-20 gap-6">
-        {/* ✅ Sidebar only on Desktop */}
         <div className="hidden md:block md:w-1/4 border-l-2 border-gray-200">
           <ul className="space-y-6">
             {features.map((feature) => (
@@ -80,7 +76,6 @@ const FeatureShowcase = () => {
           </ul>
         </div>
 
-        {/* Content */}
         <div className="w-full md:w-3/4 flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
           <div className="md:w-1/2 space-y-4 text-center md:text-left">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
